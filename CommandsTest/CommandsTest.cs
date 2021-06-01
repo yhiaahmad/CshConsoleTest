@@ -109,7 +109,7 @@ namespace CshConsoleTest
 			Assert.IsTrue(CommandsApi.CommandExec(ref pCommands, CMD_LINE_ADD));
 			//	Check adding SUB command to commands list.
 			Assert.IsTrue(CommandsApi.CommandAdd(ref pCommands, AppCommands.CMD_SUB, AppCommands.CommandSUB));
-
+			//
 			//	Execute the SUB command in the command list.
 			Assert.IsTrue(CommandsApi.CommandExec(ref pCommands, CMD_LINE_SUB));
 			//	Check adding MULT command to commands list.
